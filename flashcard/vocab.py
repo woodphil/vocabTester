@@ -1,7 +1,12 @@
-from string import *
+#custom classes
 from flashcard import *
+from states import *
+
+#standard python libraries
+from string import *
 from random import choice
 import csv
+
 
 diction = [];
 problems = [];
@@ -15,7 +20,6 @@ with open('truevocab.txt', 'r') as raw:
 
 #main loop
 #print('get rdy for vocab. type iamscrub to exit\n');
-
 
 #closing loop
 
@@ -41,6 +45,9 @@ def main():
 		if c == 10:
 			break;
 
+
+if __name__ =="__main__":
+	main();
 
 
 
